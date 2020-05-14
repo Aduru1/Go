@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("What would you like for lunch?")
+  var food string
+  // Add your code below:
+  fmt.Scan(&food)
+  
+   fmt.Printf("Sure, we can have %v for lunch.", food)
+  
+}
